@@ -1,0 +1,44 @@
+
+html, body, .box {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    text-align: center;
+    background-image: linear-gradient(45deg, lightgreen, white);
+}
+
+.box {
+    margin: 15px;
+}
+
+.newDiv {
+    /* background-color: aqua; */
+    width: 100px;
+    height: 75px;
+    border: 1px solid black;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hide {
+    background-position: -999px -9999px;
+}
+
+#root {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    max-width: 730px;
+    margin: auto;
+}
+
+.pointerNone {
+    pointer-events: none; 
+     /* border-radius: 50%; */
+}
